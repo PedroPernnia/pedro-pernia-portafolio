@@ -1,0 +1,148 @@
+
+body{
+    /* background-color: rgba(0, 0, 0, 0.231); */
+    background-image: url(../img/fondo\ minimalista\ blanco\ cafe\ gris\ negro.png);
+}
+.bg-nav{
+    background-color:rgba(234, 152, 37, 0.977);
+    width: 100%;
+    height: 8vh;
+}
+.bg-nav-login{
+    background-color: #18bdec;
+}
+.lyrics-black{
+    height: 2rem;
+    width: 9rem;
+    -webkit-filter: invert(100%);  
+}
+.lyrics-black:hover{
+    height: 2rem;
+    width:  9rem;
+    -webkit-filter: invert(0%)
+}
+
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color:transparent;
+}
+.btn-secondary {
+    --bs-btn-bg: rgba(233, 107, 10, 0.897);
+}
+.modal-footer{
+    background-color:rgba(133, 116, 116, 0.153);
+    border-top: transparent;
+}
+.modal-content {
+background-color:rgba(133, 116, 116, 0.153);
+color: white;
+}
+.form-text {
+    color: white;
+}
+
+.modal-header {
+    border-bottom: transparent;
+    background-color:black;
+}
+.form-control {
+    background-color: blanchedalmond;
+}
+.fa-brands.fa-instagram.fa-2x:hover{
+--bs-text-opacity: 1;
+    color: blanchedalmond;
+}
+.fa-brands.fa-linkedin.fa-2x:hover{
+    --bs-text-opacity: 1;
+        color: blanchedalmond;
+    }
+    .fa-brands.fa-github.fa-2x:hover{
+        --bs-text-opacity: 1;
+            color: blanchedalmond;
+        }
+        .fa-solid.fa-user-lock.fa-2x:hover{
+            --bs-text-opacity: 1;
+                color: blanchedalmond;
+            }
+
+section.presentacion{
+   background-image: url(../img/Fondo\ de\ pared.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height:45vh;
+}
+
+h1.intro{
+    color: white;
+    padding-top: 1%;
+    font-size: 3rem;
+text-shadow: 0.1em 0.1em 0.2em black;
+}
+h3.intro{
+    color: white;
+    font-family: "Courier New";
+    padding-top: 1%;
+    font-size: 2rem;
+text-shadow: 0.1em 0.1em 0.2em black;  
+}
+.fotointro{
+    border-radius: 35px;
+    box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.336);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;   
+}
+.fotointro:hover{
+    
+    box-shadow: 0px 0px 30px 30px #1edbec53;
+    -webkit-box-shadow: 0px 0px 30px 30px #1edbec53;
+   
+}
+
+.sombra1{
+    border-radius: 35px;
+    box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.336);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+.sombra1:hover{
+    box-shadow: 0px 0px 15px 15px #1edbec53;
+    -webkit-box-shadow: 0px 0px 15px 15px #1edbec53;
+}
+.col-6.mt-2{
+    height: 23rem;
+    width: 40rem;
+}
+.intro2{
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2rem;
+    margin: 0 auto;
+    font-family: "Courier New";
+    border-right: 0.15em solid #18bdec;
+    animation: typing 4s steps(34) 1s 1 normal both, blink 1s steps(1) infinite;
+    -webkit-animation: typing 4s steps(34) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .middle{
+    background-size: cover;
+  }
+
+
